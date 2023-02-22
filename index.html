@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='UTF-8'>
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<link rel='stylesheet' href='style.css'>
+	<title>Chess Puzzle Tool</title>
+</head>
+<body>
+	<div class='main-container'>
+		<div class='board'oncontextmenu='return false;'>
+			<div class='square a8 h1'></div>
+	                <div class='square b8 g1'></div>
+	                <div class='square c8 f1'></div>
+	                <div class='square d8 e1'></div>
+	                <div class='square e8 d1'></div>
+	                <div class='square f8 c1'></div>
+	                <div class='square g8 b1'></div>
+	                <div class='square h8 a1'></div>
+                
+	                <div class='square a7 h2'></div>
+	                <div class='square b7 g2'></div>
+	                <div class='square c7 f2'></div>
+	                <div class='square d7 e2'></div>
+	                <div class='square e7 d2'></div>
+	                <div class='square f7 c2'></div>
+	                <div class='square g7 b2'></div>
+	                <div class='square h7 a2'></div>
+
+	                <div class='square a6 h3'></div>
+	                <div class='square b6 g3'></div>
+	                <div class='square c6 f3'></div>
+	                <div class='square d6 e3'></div>
+	                <div class='square e6 d3'></div>
+	                <div class='square f6 c3'></div>
+	                <div class='square g6 b3'></div>
+	                <div class='square h6 a3'></div>
+
+	                <div class='square a5 h4'></div>
+	                <div class='square b5 g4'></div>
+	                <div class='square c5 f4'></div>
+	                <div class='square d5 e4'></div>
+	                <div class='square e5 d4'></div>
+	                <div class='square f5 c4'></div>
+	                <div class='square g5 b4'></div>
+	                <div class='square h5 a4'></div>
+
+	                <div class='square a4 h5'></div>
+	                <div class='square b4 g5'></div>
+	                <div class='square c4 f5'></div>
+	                <div class='square d4 e5'></div>
+	                <div class='square e4 d5'></div>
+	                <div class='square f4 c5'></div>
+	                <div class='square g4 b5'></div>
+	                <div class='square h4 a5'></div>
+
+	                <div class='square a3 h6'></div>
+	                <div class='square b3 g6'></div>
+	                <div class='square c3 f6'></div>
+	                <div class='square d3 e6'></div>
+	                <div class='square e3 d6'></div>
+	                <div class='square f3 c6'></div>
+	                <div class='square g3 b6'></div>
+	                <div class='square h3 a6'></div>
+
+	                <div class='square a2 h7'></div>
+	                <div class='square b2 g7'></div>
+	                <div class='square c2 f7'></div>
+	                <div class='square d2 e7'></div>
+	                <div class='square e2 d7'></div>
+	                <div class='square f2 c7'></div>
+	                <div class='square g2 b7'></div>
+ 	      		<div class='square h2 a7'></div>
+		
+  	              	<div class='square a1 h8'></div>
+   	             	<div class='square b1 g8'></div>
+   	             	<div class='square c1 f8'></div>
+   	             	<div class='square d1 e8'></div>
+   	             	<div class='square e1 d8'></div>
+   	             	<div class='square f1 c8'></div>
+   	             	<div class='square g1 b8'></div>
+   	             	<div class='square h1 a8'></div>
+		</div>
+		<div class='under-board'>
+			<div class='rating-msg'>Your rating</div>
+			<div class='score'></div>
+			<div class='hint-btn'>
+				<button type='button' class='hint-button'>Hint</button>
+			</div>
+			<div class="turn-msg"></div>
+		</div>
+	</div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src='papaparse.min.js'></script>
+<script src='require.js'></script>
+<script src='glicko2.js'></script>
+<script type='text/javascript' src='game.js'></script>
+</body>
+</html>
