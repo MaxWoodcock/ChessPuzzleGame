@@ -116,7 +116,7 @@ async function main() {
 
 		while(true) {
 			await resetGame();
-			const data = await toJson('updatedLichessPuzzles.csv');
+			const data = await toJson('UpdatedLichessPuzzles.csv');
 			puzzleNum = await getPuzzleNum(data);
 			board = await FENStringInterpreter(data[puzzleNum].Fen);
 			maxMoves = await getNumberOfMoves(data[puzzleNum].Moves);
