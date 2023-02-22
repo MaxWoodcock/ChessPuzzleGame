@@ -560,7 +560,7 @@ function generatePiece(i) {
 function generatePawnImg(currentChar) { 
 	pawn = new Image(0, 0);
 	if(currentChar == 'P') { 
-		pawn.src = '../../PieceImages/WhitePawn.png';
+		pawn.src = './PieceImages/WhitePawn.png';
 	}
 	else { 
 		pawn.src = './PieceImages/BlackPawn.png';
@@ -571,10 +571,10 @@ function generatePawnImg(currentChar) {
 function generateKnightImg(currentChar) { 
 	knight = new Image(0, 0);
 	if(currentChar == 'N') { 
-		knight.src = '../PieceImages/WhiteKnight.png';
+		knight.src = './PieceImages/WhiteKnight.png';
 	}
 	else { 
-		knight.src = '../PieceImages/BlackKnight.png';
+		knight.src = './PieceImages/BlackKnight.png';
 	}
 	return knight;
 }
@@ -582,10 +582,10 @@ function generateKnightImg(currentChar) {
 function generateBishopImg(currentChar) { 
 	bishop = new Image(0, 0);
 	if(currentChar == 'B') { 
-		bishop.src = '../PieceImages/WhiteBishop.png';
+		bishop.src = './PieceImages/WhiteBishop.png';
 	} 
 	else { 
-		bishop.src = '../../PieceImages/BlackBishop.png';
+		bishop.src = './PieceImages/BlackBishop.png';
 	}
 	return bishop;
 }
@@ -596,7 +596,7 @@ function generateKingImg(currentChar) {
 		king.src = './PieceImages/WhiteKing.png';
 	}
 	else { 
-		king.src = '../../PieceImages/BlackKing.png';
+		king.src = './PieceImages/BlackKing.png';
 	}
 	return king;
 }
@@ -604,10 +604,10 @@ function generateKingImg(currentChar) {
 function generateQueenImg(currentChar) { 
 	queen = new Image(0, 0);
 	if(currentChar == 'Q') { 
-		queen.src = '../PieceImages/WhiteQueen.png';
+		queen.src = './PieceImages/WhiteQueen.png';
 	}
 	else { 
-		queen.src = '../PieceImages/BlackQueen.png';
+		queen.src = './PieceImages/BlackQueen.png';
 	}
 	return queen;
 }
@@ -615,10 +615,10 @@ function generateQueenImg(currentChar) {
 function generateRookImg(currentChar) { 
 	rook = new Image(0, 0);
 	if(currentChar == 'R') { 
-		rook.src = '../../PieceImages/WhiteRook.png';
+		rook.src = './PieceImages/WhiteRook.png';
 	}
 	else { 
-		rook.src = '../../PieceImages/BlackRook.png';
+		rook.src = './PieceImages/BlackRook.png';
 	}
 	return rook;
 }
