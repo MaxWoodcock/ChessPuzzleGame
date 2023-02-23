@@ -74,7 +74,7 @@ async function getPuzzleNum(data) {
 	ratingLower = parseInt(localStorage.getItem('playerRating')) - 100;
 	ratingUpper = parseInt(localStorage.getItem('playerRating')) + 100;
 	min = 0;
-	max = 46188;
+	max = 5000;
 	numFound = false;
 	while(numFound == false) { 
 		randomNum = Math.floor(Math.random() * (max - min) + min);
